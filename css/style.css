@@ -1,0 +1,90 @@
+
+h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 60Px;
+    margin: 10px 0px 10px 0px;
+   }
+    
+  h2 {
+    font-family: Playfair Display;
+    font-size: 32px;
+    margin: 0px 0px;
+    color: #2F2F2F;
+  }
+  
+  h3 {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0px 0px;
+    color: #2F2F2F;
+  }
+  
+  h4 {
+    color: black;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+#hero {
+    background-image: url("..images/S7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+
+}
+
+.jumbotron p {
+    text-align: center;
+    color: white;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+  
+    font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+    background-color: white;
+}
+
+/* Opportunity */
+
+
+#opportunity {
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+.card-text {
+ text-align:center;
+ font-size:250px;
+ margin-bottom:100px;
+
+}
+
