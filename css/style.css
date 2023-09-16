@@ -1,18 +1,22 @@
 
 h1 {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Playfair Display;
     font-size: 60Px;
     margin: 10px 0px 10px 0px;
    }
-    
+ 
   h2 {
-    font-family: Playfair Display;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     margin: 0px 0px;
     color: #2F2F2F;
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
   }
-  
+ 
   h3 {
     font-size: 26px;
     font-weight: 300;
@@ -27,6 +31,7 @@ h1 {
     font-weight: 400;
     font-size: 22px;
   }
+
 
 body {
     font-family: 'Open Sans', sans-serif; 
@@ -75,8 +80,8 @@ body {
 
 /* Opportunity */
 
-
 #opportunity {
+    padding: 50x;
     margin-top: 25px;
     margin-bottom: 200px;
 }
@@ -85,6 +90,28 @@ body {
  text-align:center;
  font-size:250px;
  margin-bottom:100px;
-
 }
 
+/*  <!--  My UX Skills section coded using CSS flex ----------------------------------------> */
+#mySkills {
+    padding: 50x;
+    }
+
+   .subHeading {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+   }
+
+
+
+.subtitulo { 
+    font-family: "Times New Roman", Times, serif;
+        font-weight:700;
+        letter-spacing:14em;
+        line-height:1em;
+        color:#333;
+        font-style:normal;
+        font-size:120px;   
+}
