@@ -33,9 +33,7 @@ h1 {
   }
 
 
-body {
-    font-family: 'Open Sans', sans-serif; 
-}
+
 
 #hero {
     background-image: url("..images/S7.png");
@@ -67,11 +65,8 @@ body {
 
 }
 
-
 .jumbotron h1 span {
-  
-    font-weight: 300;
-
+      font-weight: 300;
 }
 
 .jumbotron .my-4 {
@@ -92,26 +87,3 @@ body {
  margin-bottom:100px;
 }
 
-/*  <!--  My UX Skills section coded using CSS flex ----------------------------------------> */
-#mySkills {
-    padding: 50x;
-    }
-
-   .subHeading {
-    text-align: center;
-    border-bottom: 2px solid black;
-    width: 300px;
-    margin: 50px auto;
-   }
-
-
-
-.subtitulo { 
-    font-family: "Times New Roman", Times, serif;
-        font-weight:700;
-        letter-spacing:14em;
-        line-height:1em;
-        color:#333;
-        font-style:normal;
-        font-size:120px;   
-}
